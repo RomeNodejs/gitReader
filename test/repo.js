@@ -5,12 +5,12 @@ var repo = require('../lib/repo.js')
   ;
 
 describe('repo', function() {
-  var validRelativePath = './test/TestGitRepo'
+  var validRelativePath = './test/testRepo'
     , invalidRelativePath = './test'
     , validAbsolutePath = path.resolve(validRelativePath)
     , invalidAbsolutePath = path.resolve(invalidRelativePath)
     , arrayOfBranch = [ { develop: 'e42d12f3d9f9c47bdd79a0bb837cfdf50d4a58af' }
-                      , { master: '5c95ba4bd7969740f402a07b4e06bbf351124d65' } ]
+                      , { master: 'e42d12f3d9f9c47bdd79a0bb837cfdf50d4a58af' } ]
     , blob = "303ff981c488b812b6215f7db7920dedb3b59d9a"
     , tree = "324e16519b70c18a9c92db30aa800912ec7f41be"
     , commit = "e42d12f3d9f9c47bdd79a0bb837cfdf50d4a58af"
