@@ -4,15 +4,15 @@
 
 ## How to use
   
-  var gitReader = require('gitReader')
-    , repo = gitReader.init('.');
+    var gitReader = require('gitReader')
+      , repo = gitReader.init('.');
 
-  repo.getBranches(function (err, branches) { });
-  repo.getObject(sha1, function (err, result) { });
+    repo.getBranches(function (err, branches) { });
+    repo.getObject(sha1, function (err, result) { });
 
 ## How to test
   
-  npm test
+    npm test
 
 ## License 
 
