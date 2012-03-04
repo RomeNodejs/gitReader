@@ -2,7 +2,7 @@
   "author": "Luca Lanziani <luca.lanziani@gmail.com>",
   "name": "gitReader",
   "description": "Parse a git repo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "url": ""
   },
