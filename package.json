@@ -8,14 +8,14 @@
   },
   "main": "index.js",
   "engines": {
-    "node": "~0.6.11"
+    "node": "~0.8.14"
   },
   "dependencies": {
     "async": ""
   },
   "devDependencies": {
     "mocha": "",
-    "should": "~0.5.1"
+    "should": "~1.2.0"
   },
   "optionalDependencies": {},
   "scripts": {
