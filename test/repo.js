@@ -41,6 +41,7 @@ describe('repo', function() {
 
     it("should return git dir", function() {
       var repoDir = myrepo.getDir();
+
       repoDir.should.be.a('string');
       repoDir.should.be.equal(path.join(validRelativePath,'.git'));
     })

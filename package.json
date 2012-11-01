@@ -2,20 +2,20 @@
   "author": "Luca Lanziani <luca.lanziani@gmail.com>",
   "name": "gitReader",
   "description": "Parse a git repo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "url": ""
   },
   "main": "index.js",
   "engines": {
-    "node": "~0.6.11"
+    "node": "~0.8.14"
   },
   "dependencies": {
     "async": ""
   },
   "devDependencies": {
     "mocha": "",
-    "should": "~0.5.1"
+    "should": "~1.2.0"
   },
   "optionalDependencies": {},
   "scripts": {
